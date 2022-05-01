@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="bg">
+            <img src="./img/sunny.jpg" id="bgImage" alt="background of weather app">
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1>Weather App</h1>
+            </div>
+            <div class="searchbox">
+                <input type="text" class="search" id="search" placeholder="Search the City...">
+            </div>
+            <div class="info">
+                <div class="main">
+                    <div id="city" class="city"></div>
+                    <div id="temprature" class="temprature"></div>
+                    <div class="desc">
+                        <i id="icon"></i>
+                        <div id="description" class="description"></div>
+                    </div>
+                </div>
+                <div id="max" class="max"></div>
+                <div id="min" class="min"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
+
+<!--  
+    <i class="fas fa-sun"></i>
+    <i class="fas fa-cloud-sun"></i>
+    <i class="fas fa-cloud-sun-rain"></i>
+    <i class="fas fa-cloud"></i>
+    <i class="far fa-snowflake"></i>
+    <i class="fas fa-cloud-showers-heavy"></i>
+    <i class="fas fa-temperature-low"></i>
+    <i class="fas fa-wind"></i>
+-->
